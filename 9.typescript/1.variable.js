@@ -1,0 +1,19 @@
+let msg = 'hello';
+//msg = 1
+let val = 1;
+let nullableStr = null; //union type
+nullableStr = 'Hi';
+//nullableStr = undefined
+let undefinedOrNumber;
+undefinedOrNumber = 10;
+undefinedOrNumber = undefined;
+let numberOrStringOrNull = null;
+numberOrStringOrNull = 1;
+numberOrStringOrNull = 'Bye';
+let isCompleted = true; //bullean type variable
+isCompleted = false;
+//isCompleted = 0
+let anyValue = null; //anytype
+anyValue = undefined;
+anyValue = 1;
+anyValue = 'hello';
